@@ -13,6 +13,11 @@ const StyledContent = styled.section`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  //* Definición de Media Querie
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
 `
 
 const Container = () => {
