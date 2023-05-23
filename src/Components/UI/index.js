@@ -16,7 +16,11 @@ export const Btn = styled.button`
     font-size: 14px;
     padding: 8px 20px;
     cursor: pointer;    
-`
+`;
+
+export const IconoTema = styled(Icono)`
+    filter: ${({ theme }) => theme.filter};
+`;
 
 export const Box = styled.div`
     display: flex;
@@ -34,17 +38,17 @@ export const Box = styled.div`
         width: 95%;
         margin: 5px;
     }
-`
+`;
 
 export const Saldo = styled.div`
     font-weight: 700;
     font-size: 32px;
-`
+`;
 
 export const Detalle =styled.span`
     color: #41d3be;
     font-size: 24px;
-`
+`;
 
 export const BtnTema = styled.div`
     position: absolute;
