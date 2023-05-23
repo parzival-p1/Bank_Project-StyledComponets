@@ -7,7 +7,7 @@ import dinero from "../../assets/images/dinero.svg";
 
 const IconoMargin = styled(Icono)`
   margin-top: "2px" 
-`
+`;
 
 const Account = () => {
   const [toggleState, untoggle] = useState(true);
@@ -31,7 +31,7 @@ const Account = () => {
         ) : null}
       </div>
 
-      <Btn className="btn" onClick={toggleHandler}>
+      <Btn onClick={toggleHandler}>
         <IconoMargin
           src={toggleState ? privado : ojo}
           alt="Privacidad de saldo"
